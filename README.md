@@ -24,16 +24,6 @@ dan pembagian hak akses.
 - Apache (XAMPP)
 - Bootstrap 5
 
-## Struktur Folder
- project_uas/
-├── config/
-├── core/
-├── controllers/
-├── models/
-├── views/
-└── index.php
-
-
 
 ## Akun Demo
 **Admin**
@@ -49,4 +39,3 @@ dan pembagian hak akses.
 
 
 
-## Struktur Folder
