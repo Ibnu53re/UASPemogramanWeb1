@@ -37,5 +37,9 @@ dan pembagian hak akses.
 4. Import database `project_uas` melalui phpMyAdmin
 5. Akses aplikasi melalui browser:
 
-
+# .htaccess
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 
